@@ -1,23 +1,29 @@
+<div align="right">
+  <a href="https://github.com/settings/appearance" title="Open GitHub appearance settings">
+    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/theme-toggle.svg" width="184" height="48" alt="Animated day and night theme switch. Open GitHub appearance settings." />
+  </a>
+</div>
+
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=900&color=58A6FF&center=true&vCenter=true&width=760&lines=Hey%2C+I'm+Rustam+Chaturvedi+%F0%9F%91%8B;Web+Development+%7C+App+Development;Exploring+AI+Agents+%26+Automation+%E2%9A%A1;Learning.+Building.+Improving.+%F0%9F%9A%80" alt="Animated introduction: Rustam Chaturvedi" />
-</a>
+  <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/profile-banner-light.svg#gh-light-mode-only" width="100%" alt="Rustam Chaturvedi, web development, AI agents and automation, warm light theme" />
+  <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/profile-banner-dark.svg#gh-dark-mode-only" width="100%" alt="Rustam Chaturvedi, web development, AI agents and automation, warm dark theme" />
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:6D28D9,100:06B6D4&height=155&section=header&text=RUSTAM%20CHATURVEDI&fontSize=32&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Web%20Development%20%7C%20AI%20%7C%20Automation&descSize=14&descAlignY=56" width="100%" alt="Neon blue and purple profile banner" />
+  <br/>
 
-<a href="https://github.com/rstmcsoch">
-  <img src="https://img.shields.io/badge/GitHub-rstmcsoch-181717?style=for-the-badge&logo=github" alt="GitHub profile" />
-</a>
-<a href="https://github.com/rstmcsoch?tab=repositories">
-  <img src="https://img.shields.io/badge/Explore-My_Repositories-6D28D9?style=for-the-badge&logo=github&logoColor=white" alt="Explore my repositories" />
-</a>
+  <a href="https://github.com/rstmcsoch">
+    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/pill-profile.svg" alt="Open GitHub profile" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="https://github.com/rstmcsoch?tab=repositories">
+    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/pill-projects.svg" alt="Explore public repositories" />
+  </a>
 
-<br/><br/>
+  <br/><br/>
 
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Frstmcsoch&query=%24.public_repos&label=Public%20Repositories&style=for-the-badge&color=06B6D4" alt="Public repository count" />
-<img src="https://img.shields.io/github/followers/rstmcsoch?label=Followers&style=for-the-badge&color=8B5CF6" alt="GitHub followers" />
-<img src="https://img.shields.io/github/last-commit/rstmcsoch/rstmcsoch?label=Profile%20README%20Updated&style=for-the-badge&color=58A6FF" alt="Last update to this profile README repository" />
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2Frstmcsoch&amp;query=%24.public_repos&amp;label=Public%20Repos&amp;style=flat&amp;color=C2410C&amp;labelColor=292524" alt="Public repository count" />
+  <img src="https://img.shields.io/github/followers/rstmcsoch?label=Followers&amp;style=flat&amp;color=B45309&amp;labelColor=292524&amp;logo=github&amp;logoColor=white" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/last-commit/rstmcsoch/rstmcsoch?label=README%20Updated&amp;style=flat&amp;color=92400E&amp;labelColor=292524" alt="Last update to this profile README repository" />
 
 </div>
 
@@ -42,7 +48,8 @@ I'm building my skills step by step, learning by experimenting, and turning idea
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js&theme=dark" alt="HTML, CSS, and JavaScript icons" />
+  <img src="https://skillicons.dev/icons?i=html,css,js&amp;theme=light#gh-light-mode-only" alt="HTML, CSS, and JavaScript icons in light mode" />
+  <img src="https://skillicons.dev/icons?i=html,css,js&amp;theme=dark#gh-dark-mode-only" alt="HTML, CSS, and JavaScript icons in dark mode" />
 
 </div>
 
@@ -56,10 +63,10 @@ I'm building my skills step by step, learning by experimenting, and turning idea
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Web_Development-0EA5E9?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Web development" />
-<img src="https://img.shields.io/badge/Application_Development-7C3AED?style=for-the-badge&logo=code&logoColor=white" alt="Application development" />
-<img src="https://img.shields.io/badge/AI_Agents-EC4899?style=for-the-badge&logo=openai&logoColor=white" alt="AI agents" />
-<img src="https://img.shields.io/badge/Automation-10B981?style=for-the-badge&logo=dependabot&logoColor=white" alt="Automation" />
+  <img src="https://img.shields.io/badge/Web_Development-Explore&amp;style=flat&amp;color=C2410C&amp;labelColor=292524&amp;logo=googlechrome&amp;logoColor=white" alt="Web development" />
+  <img src="https://img.shields.io/badge/Application_Development-Explore&amp;style=flat&amp;color=B45309&amp;labelColor=292524&amp;logo=code&amp;logoColor=white" alt="Application development" />
+  <img src="https://img.shields.io/badge/AI_Agents-Explore&amp;style=flat&amp;color=92400E&amp;labelColor=292524&amp;logo=openai&amp;logoColor=white" alt="AI agents" />
+  <img src="https://img.shields.io/badge/Automation-Explore&amp;style=flat&amp;color=A16207&amp;labelColor=292524&amp;logo=dependabot&amp;logoColor=white" alt="Automation" />
 
 </div>
 
@@ -71,9 +78,9 @@ I'm using GitHub to document my learning and share projects as they develop. Rat
 
 <div align="center">
 
-<a href="https://github.com/rstmcsoch?tab=repositories">
-  <img src="https://img.shields.io/badge/OPEN_MY_PUBLIC_REPOSITORIES-View_Projects-06B6D4?style=for-the-badge&logo=github&logoColor=white" alt="Open my public repositories" />
-</a>
+  <a href="https://github.com/rstmcsoch?tab=repositories">
+    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/pill-projects.svg" alt="Open my public repositories" />
+  </a>
 
 </div>
 
@@ -83,8 +90,10 @@ I'm using GitHub to document my learning and share projects as they develop. Rat
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=rstmcsoch&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true" alt="Public GitHub statistics" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstmcsoch&layout=compact&theme=tokyonight&hide_border=true" alt="Languages detected in public repositories" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rstmcsoch&amp;show_icons=true&amp;include_all_commits=true&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=9A3412&amp;text_color=44403C&amp;icon_color=F59E0B#gh-light-mode-only" alt="Public GitHub statistics in light mode" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rstmcsoch&amp;show_icons=true&amp;include_all_commits=true&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=FBBF24&amp;text_color=E7E5E4&amp;icon_color=FDBA74#gh-dark-mode-only" alt="Public GitHub statistics in dark mode" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstmcsoch&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=9A3412&amp;text_color=44403C&amp;icon_color=F59E0B#gh-light-mode-only" alt="Languages detected in public repositories in light mode" />
+  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstmcsoch&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=FBBF24&amp;text_color=E7E5E4&amp;icon_color=FDBA74#gh-dark-mode-only" alt="Languages detected in public repositories in dark mode" />
 
 </div>
 
@@ -106,16 +115,14 @@ I'm happy to learn from other developers, exchange ideas, and collaborate on beg
 
 <div align="center">
 
-<a href="https://github.com/rstmcsoch">
-  <img src="https://img.shields.io/badge/Follow_my_journey_on-GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="Follow me on GitHub" />
-</a>
+  <a href="https://github.com/rstmcsoch">
+    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/pill-profile.svg" alt="Follow my journey on GitHub" />
+  </a>
 
-<br/><br/>
+  <br/><br/>
 
-**Thanks for visiting!** 💙
+  **Thanks for visiting!** 🧡
 
-*Keep learning · Keep building · Keep exploring* 🚀
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,50:6D28D9,100:0F172A&height=105&section=footer" width="100%" alt="Blue and purple footer banner" />
+  *Keep learning · Keep building · Keep exploring* 🚀
 
 </div>
