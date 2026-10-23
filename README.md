@@ -48,8 +48,7 @@ I'm building my skills step by step, learning by experimenting, and turning idea
 
 <div align="center">
 
-  <img src="https://skillicons.dev/icons?i=html,css,js&amp;theme=light#gh-light-mode-only" alt="HTML, CSS, and JavaScript icons in light mode" />
-  <img src="https://skillicons.dev/icons?i=html,css,js&amp;theme=dark#gh-dark-mode-only" alt="HTML, CSS, and JavaScript icons in dark mode" />
+  <img src="https://skillicons.dev/icons?i=html,css,js&amp;theme=dark" alt="HTML, CSS, and JavaScript icons" />
 
 </div>
 
