@@ -63,10 +63,10 @@ I'm building my skills step by step, learning by experimenting, and turning idea
 
 <div align="center">
 
-  <img src="https://img.shields.io/badge/Web_Development-Explore&amp;style=flat&amp;color=C2410C&amp;labelColor=292524&amp;logo=googlechrome&amp;logoColor=white" alt="Web development" />
-  <img src="https://img.shields.io/badge/Application_Development-Explore&amp;style=flat&amp;color=B45309&amp;labelColor=292524&amp;logo=code&amp;logoColor=white" alt="Application development" />
-  <img src="https://img.shields.io/badge/AI_Agents-Explore&amp;style=flat&amp;color=92400E&amp;labelColor=292524&amp;logo=openai&amp;logoColor=white" alt="AI agents" />
-  <img src="https://img.shields.io/badge/Automation-Explore&amp;style=flat&amp;color=A16207&amp;labelColor=292524&amp;logo=dependabot&amp;logoColor=white" alt="Automation" />
+  <img src="https://img.shields.io/badge/Web_Development-Explore?style=flat&amp;color=C2410C&amp;labelColor=292524&amp;logo=googlechrome&amp;logoColor=white" alt="Web development" />
+  <img src="https://img.shields.io/badge/Application_Development-Explore?style=flat&amp;color=B45309&amp;labelColor=292524&amp;logo=code&amp;logoColor=white" alt="Application development" />
+  <img src="https://img.shields.io/badge/AI_Agents-Explore?style=flat&amp;color=92400E&amp;labelColor=292524&amp;logo=openai&amp;logoColor=white" alt="AI agents" />
+  <img src="https://img.shields.io/badge/Automation-Explore?style=flat&amp;color=A16207&amp;labelColor=292524&amp;logo=dependabot&amp;logoColor=white" alt="Automation" />
 
 </div>
 
