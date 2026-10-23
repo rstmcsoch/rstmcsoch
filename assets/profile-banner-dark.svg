@@ -1,16 +1,53 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Rustam Chaturvedi</title>
-  <desc id="desc">Minimal dark navy gradient with a soft blue glow in the upper right and a diffused amber orange glow near the lower right.</desc>
+  <desc id="desc">Profile banner with a soft gradient glow and a continuously rotating geometric flower, clipped within the right-hand decorative area.</desc>
   <defs>
     <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050914"/><stop offset=".55" stop-color="#0A1020"/><stop offset="1" stop-color="#10101B"/></linearGradient>
     <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#2563EB" stop-opacity=".48"/><stop offset=".42" stop-color="#1D4ED8" stop-opacity=".19"/><stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/></radialGradient>
     <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F97316" stop-opacity=".62"/><stop offset=".28" stop-color="#EA580C" stop-opacity=".34"/><stop offset=".62" stop-color="#B45309" stop-opacity=".13"/><stop offset="1" stop-color="#B45309" stop-opacity="0"/></radialGradient>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FB923C"/><stop offset=".55" stop-color="#FBBF24"/><stop offset="1" stop-color="#FDE68A"/></linearGradient>
+    <linearGradient id="flowerStroke" x1="0%" y1="0%" x2="100%" y2="100%">
+        <stop offset="0%" stop-color="#F8FAFC" stop-opacity=".96"/>
+        <stop offset="36%" stop-color="#BFDBFE" stop-opacity=".92"/>
+        <stop offset="70%" stop-color="#FED7AA" stop-opacity=".95"/>
+        <stop offset="100%" stop-color="#FBBF24" stop-opacity=".95"/>
+      </linearGradient>
+      <radialGradient id="flowerCore" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#FDE68A" stop-opacity=".50"/>
+        <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
+      </radialGradient>
+    <clipPath id="flowerSafeClip" clipPathUnits="userSpaceOnUse"><circle cx="1080" cy="150" r="94"/></clipPath>
   </defs>
   <rect width="1200" height="300" rx="22" fill="url(#base)"/>
   <ellipse cx="1055" cy="55" rx="300" ry="205" fill="url(#blueGlow)"/>
   <ellipse cx="1080" cy="300" rx="350" ry="270" fill="url(#amberGlow)"/>
   <ellipse cx="1000" cy="210" rx="210" ry="160" fill="url(#amberGlow)" opacity=".34"/>
+
+  <g id="animatedFlower" clip-path="url(#flowerSafeClip)" opacity=".78">
+    <circle cx="1080" cy="150" r="91" fill="url(#flowerCore)" opacity=".65"/>
+    <g fill="none" stroke="url(#flowerStroke)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(45 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(90 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(135 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(180 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(225 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(270 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(315 1080 150)"/>
+      <circle cx="1080" cy="150" r="67" stroke-opacity=".52" stroke-dasharray="1.5 7"/>
+      <circle cx="1080" cy="150" r="48" stroke-opacity=".55"/>
+      <path d="M1080 128 L1102 150 L1080 172 L1058 150 Z" stroke-opacity=".86"/>
+      <path d="M1080 139 L1091 150 L1080 161 L1069 150 Z" fill="url(#flowerStroke)" fill-opacity=".28" stroke-opacity=".7"/>
+      <path d="M1080 62 A88 88 0 0 1 1153 101" stroke-width="3.1" stroke-opacity=".95" stroke-dasharray="35 170"/>
+    </g>
+    <g fill="url(#flowerStroke)">
+      <circle cx="1080" cy="62" r="3.1"/>
+      <circle cx="1168" cy="150" r="2.7"/>
+      <circle cx="1080" cy="238" r="3.1"/>
+      <circle cx="992" cy="150" r="2.7"/>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0 1080 150" to="360 1080 150" dur="64s" repeatCount="indefinite"/>
+  </g>
   <text x="60" y="74" fill="#FDBA74" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="750" letter-spacing="3.8">HELLO, I'M</text>
   <text x="58" y="142" fill="#FAFAFA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">Rustam Chaturvedi</text>
   <rect x="60" y="163" width="112" height="4" rx="2" fill="url(#line)"/>
