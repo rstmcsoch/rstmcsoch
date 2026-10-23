@@ -1,9 +1,3 @@
-<div align="right">
-  <a href="https://rstmc-profile.vercel.app/" title="Open the full profile with one continuous gradient background">
-    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/theme-toggle.svg" width="184" height="48" alt="Open the full profile website with a continuous gradient background and an interactive day and night switch." />
-  </a>
-</div>
-
 <div align="center">
 
   <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/profile-banner-light.svg?v=monochrome-fffaF2#gh-light-mode-only" width="100%" alt="Rustam Chaturvedi, web development, AI agents and automation, warm light theme" />
