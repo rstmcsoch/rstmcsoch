@@ -83,10 +83,14 @@ I'm using GitHub to document my learning and share projects as they develop. Rat
 
 <div align="center">
 
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rstmcsoch&amp;show_icons=true&amp;include_all_commits=true&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=9A3412&amp;text_color=44403C&amp;icon_color=F59E0B#gh-light-mode-only" alt="Public GitHub statistics in light mode" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=rstmcsoch&amp;show_icons=true&amp;include_all_commits=true&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=FBBF24&amp;text_color=E7E5E4&amp;icon_color=FDBA74#gh-dark-mode-only" alt="Public GitHub statistics in dark mode" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstmcsoch&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=9A3412&amp;text_color=44403C&amp;icon_color=F59E0B#gh-light-mode-only" alt="Languages detected in public repositories in light mode" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstmcsoch&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=FBBF24&amp;text_color=E7E5E4&amp;icon_color=FDBA74#gh-dark-mode-only" alt="Languages detected in public repositories in dark mode" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=rstmcsoch&amp;show_icons=true&amp;include_all_commits=true&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=FBBF24&amp;text_color=E7E5E4&amp;icon_color=FDBA74" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=rstmcsoch&amp;show_icons=true&amp;include_all_commits=true&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=9A3412&amp;text_color=44403C&amp;icon_color=F59E0B" alt="Public GitHub statistics" />
+  </picture>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=rstmcsoch&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=FBBF24&amp;text_color=E7E5E4&amp;icon_color=FDBA74" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=rstmcsoch&amp;layout=compact&amp;theme=transparent&amp;hide_border=true&amp;bg_color=00000000&amp;title_color=9A3412&amp;text_color=44403C&amp;icon_color=F59E0B" alt="Languages detected in public repositories" />
+  </picture>
 
 </div>
 
