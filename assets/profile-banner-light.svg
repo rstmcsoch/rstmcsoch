@@ -7,15 +7,14 @@
     <radialGradient id="softBlue" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#60A5FA" stop-opacity=".18"/><stop offset="1" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EA580C"/><stop offset=".55" stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
     <linearGradient id="flowerStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-        <stop offset="0%" stop-color="#2563EB" stop-opacity=".92"/>
-        <stop offset="42%" stop-color="#64748B" stop-opacity=".82"/>
-        <stop offset="72%" stop-color="#EA580C" stop-opacity=".92"/>
-        <stop offset="100%" stop-color="#B45309" stop-opacity=".95"/>
-      </linearGradient>
+      <stop offset="0%" stop-color="#FFFAF2"/>
+      <stop offset="45%" stop-color="#FFFAF2"/>
+      <stop offset="100%" stop-color="#FFFAF2"/>
+    </linearGradient>
       <radialGradient id="flowerCore" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#FBBF24" stop-opacity=".28"/>
-        <stop offset="100%" stop-color="#F97316" stop-opacity="0"/>
-      </radialGradient>
+      <stop offset="0%" stop-color="#FFFAF2" stop-opacity=".42"/>
+      <stop offset="100%" stop-color="#FFFAF2" stop-opacity="0"/>
+    </radialGradient>
     <clipPath id="flowerSafeClip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="1200" height="300" rx="22"/></clipPath>
   </defs>
   <rect width="1200" height="300" rx="22" fill="url(#base)"/>
