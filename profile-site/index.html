@@ -23,12 +23,14 @@
           <stop offset="76%" stop-color="#fdba74"/>
           <stop offset="100%" stop-color="#fbbf24"/>
         </linearGradient>
-        <radialGradient id="flowerCore">
+        <radialGradient id="flowerCore" cx="50%" cy="50%" r="50%">
           <stop offset="0%" stop-color="#fbbf24" stop-opacity=".28"/>
           <stop offset="100%" stop-color="#fb923c" stop-opacity="0"/>
         </radialGradient>
       </defs>
       <circle class="flower-halo" cx="120" cy="120" r="94" fill="url(#flowerCore)"/>
+      <circle cx="120" cy="120" r="113" fill="none" stroke="url(#flowerStroke)" stroke-width="1" stroke-opacity=".22" stroke-dasharray="2 12"/>
+      <path d="M120 7 A113 113 0 0 1 198 38" fill="none" stroke="url(#flowerStroke)" stroke-width="3.2" stroke-linecap="round" stroke-opacity=".8"/>
       <g class="flower-lines" fill="none" stroke="url(#flowerStroke)" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round">
         <path d="M120 16 C137 38 160 43 160 72 C160 93 142 110 120 128 C98 110 80 93 80 72 C80 43 103 38 120 16 Z"/>
         <path d="M120 16 C137 38 160 43 160 72 C160 93 142 110 120 128 C98 110 80 93 80 72 C80 43 103 38 120 16 Z" transform="rotate(45 120 120)"/>
