@@ -6,27 +6,17 @@
     <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#2563EB" stop-opacity=".48"/><stop offset=".42" stop-color="#1D4ED8" stop-opacity=".19"/><stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/></radialGradient>
     <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F97316" stop-opacity=".62"/><stop offset=".28" stop-color="#EA580C" stop-opacity=".34"/><stop offset=".62" stop-color="#B45309" stop-opacity=".13"/><stop offset="1" stop-color="#B45309" stop-opacity="0"/></radialGradient>
     <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FB923C"/><stop offset=".55" stop-color="#FBBF24"/><stop offset="1" stop-color="#FDE68A"/></linearGradient>
-    <linearGradient id="flowerStroke" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#FFFAF2"/>
-      <stop offset="45%" stop-color="#FFFAF2"/>
-      <stop offset="100%" stop-color="#FFFAF2"/>
-    </linearGradient>
-      <radialGradient id="flowerCore" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FFFAF2" stop-opacity=".42"/>
-      <stop offset="100%" stop-color="#FFFAF2" stop-opacity="0"/>
-    </radialGradient>
-    <clipPath id="flowerSafeClip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="1200" height="300" rx="22"/></clipPath>
+<clipPath id="flowerSafeClip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="1200" height="300" rx="22"/></clipPath>
   </defs>
   <rect width="1200" height="300" rx="22" fill="url(#base)"/>
   <ellipse cx="1055" cy="55" rx="300" ry="205" fill="url(#blueGlow)"/>
   <ellipse cx="1080" cy="300" rx="350" ry="270" fill="url(#amberGlow)"/>
   <ellipse cx="1000" cy="210" rx="210" ry="160" fill="url(#amberGlow)" opacity=".34"/>
 
-  <g clip-path="url(#flowerSafeClip)" opacity=".78">
+  <g clip-path="url(#flowerSafeClip)">
     <g id="animatedFlower">
     <g transform="translate(1080 150) scale(1.85) translate(-1080 -150)">
-    <circle cx="1080" cy="150" r="91" fill="url(#flowerCore)" opacity=".65"/>
-    <g fill="none" stroke="url(#flowerStroke)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <g fill="none" stroke="#FFFAF2" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
       <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z"/>
       <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(45 1080 150)"/>
       <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(90 1080 150)"/>
@@ -35,12 +25,12 @@
       <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(225 1080 150)"/>
       <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(270 1080 150)"/>
       <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(315 1080 150)"/>
-      <circle cx="1080" cy="150" r="67" stroke-opacity=".52" stroke-dasharray="1.5 7"/>
-      <circle cx="1080" cy="150" r="48" stroke-opacity=".55"/>
-      <path d="M1080 128 L1102 150 L1080 172 L1058 150 Z" stroke-opacity=".86"/>
-      <path d="M1080 139 L1091 150 L1080 161 L1069 150 Z" fill="url(#flowerStroke)" fill-opacity=".28" stroke-opacity=".7"/>
+      <circle cx="1080" cy="150" r="67" stroke-dasharray="1.5 7"/>
+      <circle cx="1080" cy="150" r="48"/>
+      <path d="M1080 128 L1102 150 L1080 172 L1058 150 Z"/>
+      <path d="M1080 139 L1091 150 L1080 161 L1069 150 Z" fill="#FFFAF2"/>
     </g>
-    <g fill="url(#flowerStroke)">
+    <g fill="#FFFAF2">
       <circle cx="1080" cy="62" r="3.1"/>
       <circle cx="1168" cy="150" r="2.7"/>
       <circle cx="1080" cy="238" r="3.1"/>
