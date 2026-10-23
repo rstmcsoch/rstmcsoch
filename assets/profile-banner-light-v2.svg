@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Rustam Chaturvedi</title>
+  <desc id="desc">Profile banner with a soft gradient glow and a continuously rotating geometric flower, clipped within the right-hand decorative area.</desc>
+  <defs>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFEFC"/><stop offset=".6" stop-color="#FFFDF8"/><stop offset="1" stop-color="#FFF7ED"/></linearGradient>
+    <radialGradient id="goldGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#FBBF24" stop-opacity=".48"/><stop offset=".36" stop-color="#F97316" stop-opacity=".19"/><stop offset="1" stop-color="#F97316" stop-opacity="0"/></radialGradient>
+    <radialGradient id="softBlue" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#60A5FA" stop-opacity=".18"/><stop offset="1" stop-color="#60A5FA" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#EA580C"/><stop offset=".55" stop-color="#F59E0B"/><stop offset="1" stop-color="#D97706"/></linearGradient>
+<clipPath id="flowerSafeClip" clipPathUnits="userSpaceOnUse"><rect x="0" y="0" width="1200" height="300" rx="22"/></clipPath>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="url(#base)"/>
+  <ellipse cx="1050" cy="70" rx="290" ry="200" fill="url(#softBlue)"/>
+  <ellipse cx="1080" cy="300" rx="360" ry="270" fill="url(#goldGlow)"/>
+  <ellipse cx="1000" cy="210" rx="220" ry="160" fill="url(#goldGlow)" opacity=".5"/>
+
+  <g clip-path="url(#flowerSafeClip)">
+    <g id="animatedFlower">
+    <g transform="translate(1080 150) scale(1.85) translate(-1080 -150)">
+    <g fill="none" stroke="#FFFAF2" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(45 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(90 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(135 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(180 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(225 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(270 1080 150)"/>
+      <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z" transform="rotate(315 1080 150)"/>
+      <circle cx="1080" cy="150" r="67" stroke-dasharray="1.5 7"/>
+      <circle cx="1080" cy="150" r="48"/>
+      <path d="M1080 128 L1102 150 L1080 172 L1058 150 Z"/>
+      <path d="M1080 139 L1091 150 L1080 161 L1069 150 Z" fill="#FFFAF2"/>
+    </g>
+    <g fill="#FFFAF2">
+      <circle cx="1080" cy="62" r="3.1"/>
+      <circle cx="1168" cy="150" r="2.7"/>
+      <circle cx="1080" cy="238" r="3.1"/>
+      <circle cx="992" cy="150" r="2.7"/>
+    </g>
+    </g>
+    <animateTransform attributeName="transform" type="rotate" from="0 1080 150" to="360 1080 150" dur="64s" repeatCount="indefinite"/>
+    </g>
+  </g>
+  <text x="60" y="74" fill="#9A3412" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="750" letter-spacing="3.8">HELLO, I'M</text>
+  <text x="58" y="142" fill="#1C1917" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">Rustam Chaturvedi</text>
+  <rect x="60" y="163" width="112" height="4" rx="2" fill="url(#line)"/>
+  <text x="60" y="207" fill="#292524" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="550">Development · AI Agents · Automation</text>
+  <text x="60" y="244" fill="#78716C" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16">Learning by building, one useful project at a time.</text>
+</svg>
