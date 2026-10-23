@@ -24,7 +24,7 @@
   <ellipse cx="1000" cy="210" rx="210" ry="160" fill="url(#amberGlow)" opacity=".34"/>
 
   <g id="animatedFlower" clip-path="url(#flowerSafeClip)" opacity=".78">
-    <g transform="translate(1080 150) scale(1.38) translate(-1080 -150)">
+    <g transform="translate(1080 150) scale(1.85) translate(-1080 -150)">
     <circle cx="1080" cy="150" r="91" fill="url(#flowerCore)" opacity=".65"/>
     <g fill="none" stroke="url(#flowerStroke)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
       <path d="M1080 62 C1097 77 1110 85 1110 101 C1110 119 1093 133 1080 143 C1067 133 1050 119 1050 101 C1050 85 1063 77 1080 62 Z"/>
