@@ -1,39 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
   <title id="title">Rustam Chaturvedi</title>
-  <desc id="desc">A clean dark profile banner with a soft orange, saffron, gold and charcoal circular glow on the right.</desc>
+  <desc id="desc">Minimal dark navy gradient with a soft blue glow in the upper right and a diffused amber orange glow near the lower right.</desc>
   <defs>
-    <radialGradient id="warmOrb" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#FDE68A" stop-opacity=".54"/>
-      <stop offset="25%" stop-color="#FBBF24" stop-opacity=".38"/>
-      <stop offset="54%" stop-color="#F97316" stop-opacity=".24"/>
-      <stop offset="78%" stop-color="#27272A" stop-opacity=".12"/>
-      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="softBlack" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#09090B" stop-opacity=".10"/>
-      <stop offset="75%" stop-color="#09090B" stop-opacity=".02"/>
-      <stop offset="100%" stop-color="#09090B" stop-opacity="0"/>
-    </radialGradient>
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#F97316"/>
-      <stop offset="55%" stop-color="#FBBF24"/>
-      <stop offset="100%" stop-color="#FDE68A"/>
-    </linearGradient>
+    <linearGradient id="base" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#050914"/><stop offset=".55" stop-color="#0A1020"/><stop offset="1" stop-color="#10101B"/></linearGradient>
+    <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#2563EB" stop-opacity=".48"/><stop offset=".42" stop-color="#1D4ED8" stop-opacity=".19"/><stop offset="1" stop-color="#1D4ED8" stop-opacity="0"/></radialGradient>
+    <radialGradient id="amberGlow" cx="50%" cy="50%" r="50%"><stop offset="0" stop-color="#F97316" stop-opacity=".62"/><stop offset=".28" stop-color="#EA580C" stop-opacity=".34"/><stop offset=".62" stop-color="#B45309" stop-opacity=".13"/><stop offset="1" stop-color="#B45309" stop-opacity="0"/></radialGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FB923C"/><stop offset=".55" stop-color="#FBBF24"/><stop offset="1" stop-color="#FDE68A"/></linearGradient>
   </defs>
-  <circle cx="1020" cy="155" r="245" fill="url(#warmOrb)"/>
-  <circle cx="1080" cy="165" r="175" fill="url(#softBlack)" opacity=".6"/>
-  <circle cx="1024" cy="158" r="135" fill="none" stroke="#FBBF24" stroke-opacity=".20"/>
-  <circle cx="1024" cy="158" r="171" fill="none" stroke="#FB923C" stroke-opacity=".16" stroke-dasharray="2 10"/>
-  <circle cx="1110" cy="90" r="3" fill="#FCD34D" opacity=".65">
-    <animate attributeName="opacity" values=".25;.9;.25" dur="3.8s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="935" cy="226" r="2.5" fill="#FB923C" opacity=".55">
-    <animate attributeName="opacity" values=".6;.15;.6" dur="4.6s" repeatCount="indefinite"/>
-  </circle>
-  <path d="M870 88 C930 42 1045 28 1110 60" fill="none" stroke="#FBBF24" stroke-opacity=".25" stroke-width="1.5" stroke-linecap="round"/>
+  <rect width="1200" height="300" rx="22" fill="url(#base)"/>
+  <ellipse cx="1055" cy="55" rx="300" ry="205" fill="url(#blueGlow)"/>
+  <ellipse cx="1080" cy="300" rx="350" ry="270" fill="url(#amberGlow)"/>
+  <ellipse cx="1000" cy="210" rx="210" ry="160" fill="url(#amberGlow)" opacity=".34"/>
   <text x="60" y="74" fill="#FDBA74" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="750" letter-spacing="3.8">HELLO, I'M</text>
-  <text x="58" y="142" fill="#F9FAFB" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">Rustam Chaturvedi</text>
-  <rect x="60" y="163" width="112" height="4" rx="2" fill="url(#accentLine)"/>
+  <text x="58" y="142" fill="#FAFAFA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">Rustam Chaturvedi</text>
+  <rect x="60" y="163" width="112" height="4" rx="2" fill="url(#line)"/>
   <text x="60" y="207" fill="#E7E5E4" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="22" font-weight="550">Web Development · AI Agents · Automation</text>
   <text x="60" y="244" fill="#A8A29E" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="16">Learning by building, one useful project at a time.</text>
 </svg>
