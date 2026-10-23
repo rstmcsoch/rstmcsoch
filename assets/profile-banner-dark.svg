@@ -23,7 +23,8 @@
   <ellipse cx="1080" cy="300" rx="350" ry="270" fill="url(#amberGlow)"/>
   <ellipse cx="1000" cy="210" rx="210" ry="160" fill="url(#amberGlow)" opacity=".34"/>
 
-  <g id="animatedFlower" clip-path="url(#flowerSafeClip)" opacity=".78">
+  <g clip-path="url(#flowerSafeClip)" opacity=".78">
+    <g id="animatedFlower">
     <g transform="translate(1080 150) scale(1.85) translate(-1080 -150)">
     <circle cx="1080" cy="150" r="91" fill="url(#flowerCore)" opacity=".65"/>
     <g fill="none" stroke="url(#flowerStroke)" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
@@ -48,6 +49,7 @@
     </g>
     </g>
     <animateTransform attributeName="transform" type="rotate" from="0 1080 150" to="360 1080 150" dur="64s" repeatCount="indefinite"/>
+    </g>
   </g>
   <text x="60" y="74" fill="#FDBA74" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="14" font-weight="750" letter-spacing="3.8">HELLO, I'M</text>
   <text x="58" y="142" fill="#FAFAFA" font-family="Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif" font-size="53" font-weight="750" letter-spacing="-1.5">Rustam Chaturvedi</text>
