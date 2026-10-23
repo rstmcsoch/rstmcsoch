@@ -1,6 +1,6 @@
 <div align="right">
-  <a href="https://github.com/settings/appearance" title="Open GitHub appearance settings">
-    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/theme-toggle.svg" width="184" height="48" alt="Animated day and night theme switch. Open GitHub appearance settings." />
+  <a href="https://rstmc-profile.vercel.app/" title="Open the full profile with one continuous gradient background">
+    <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/theme-toggle.svg" width="184" height="48" alt="Open the full profile website with a continuous gradient background and an interactive day and night switch." />
   </a>
 </div>
 
