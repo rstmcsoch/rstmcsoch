@@ -1,7 +1,7 @@
 <div align="center">
 
-  <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/profile-banner-light.svg?v=monochrome-fffaF2#gh-light-mode-only" width="100%" alt="Rustam Chaturvedi, web development, AI agents and automation, warm light theme" />
-  <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/profile-banner-dark.svg?v=monochrome-fffaF2#gh-dark-mode-only" width="100%" alt="Rustam Chaturvedi, web development, AI agents and automation, warm dark theme" />
+  <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/profile-banner-light.svg?v=remove-web-word-20261023#gh-light-mode-only" width="100%" alt="Rustam Chaturvedi, web development, AI agents and automation, warm light theme" />
+  <img src="https://raw.githubusercontent.com/rstmcsoch/rstmcsoch/main/assets/profile-banner-dark.svg?v=remove-web-word-20261023#gh-dark-mode-only" width="100%" alt="Rustam Chaturvedi, web development, AI agents and automation, warm dark theme" />
 
   <br/>
 
